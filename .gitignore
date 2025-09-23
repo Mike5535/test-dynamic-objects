@@ -1,0 +1,6 @@
+library/
+build/
+preview-template/
+temp/
+.creator/
+*.meta
