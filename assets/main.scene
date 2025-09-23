@@ -330,7 +330,7 @@
       "__type__": "cc.Vec3",
       "x": 4.247,
       "y": 7.187,
-      "z": 50.716
+      "z": 23.262
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -554,7 +554,7 @@
     "joyStick": {
       "__id__": 14
     },
-    "jumpForce": 1.3,
+    "jumpForce": 2.5,
     "orbitCamera": {
       "__id__": 4
     },
@@ -781,7 +781,7 @@
     "_priority": 65535,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 573.3103448275863,
+    "_orthoHeight": 340,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -2725,7 +2725,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Label",
+    "_name": "boxCounterLabel",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -2783,7 +2783,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 164.560546875,
+      "width": 296.208984375,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2816,8 +2816,8 @@
     "_string": "Spawned boxes: 0",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 20,
-    "_fontSize": 20,
+    "_actualFontSize": 36,
+    "_fontSize": 36,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
@@ -5919,6 +5919,9 @@
       "__uuid__": "247a7339-ba01-419d-b9f9-b0b16f44adb6",
       "__expectedType__": "cc.Prefab"
     },
+    "boxCounterLabel": {
+      "__id__": 72
+    },
     "_id": "e0ZwMTjuZHq46XkJAaY/1D"
   },
   {
@@ -6267,7 +6270,7 @@
       "y": 1024,
       "z": 1024
     },
-    "_depth": 8
+    "_depth": 4
   },
   {
     "__type__": "cc.SkinInfo",
