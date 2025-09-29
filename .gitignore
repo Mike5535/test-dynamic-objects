@@ -1,6 +1,13 @@
+.DS_Store
+
 library/
-build/
-preview-template/
 temp/
-.creator/
-*.meta
+local/
+build/
+profiles/
+native
+
+node_modules/
+.vscode/
+.idea/
+*.map
